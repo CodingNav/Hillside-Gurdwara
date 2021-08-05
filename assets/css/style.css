@@ -1,0 +1,28 @@
+:root {
+    --blue-color: blue;
+    --orange-color: orange;
+    --black-color: black;
+    --white-color: white;
+  }
+
+  .about-section {
+    height: 50vh;
+    background-color: var(--orange-color);
+  }
+
+  .about-title {
+    position: absolute;
+    width: 330px;
+    top: 92vh;
+    right: 200px;
+    text-align: center;
+    background-color: var(--white-color);
+  }
+
+  .about-text {
+    position: absolute;
+    width: 60%;
+    right: 30px;
+    padding: 30px;
+    background-color: var(--white-color);
+  }
