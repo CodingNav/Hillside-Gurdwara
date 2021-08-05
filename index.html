@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <!-- ZURB Foundation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
+
 <body>
-    
+
+    <!-- Top Bar -->
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+
+
+    <div class="top-bar" id="responsive-menu">
+        <div class="top-bar-left">
+            <ul class="dropdown menu">
+                <li><p class="menu-text">Gurdwara Guru Tegh Bahadur Sahib</p></li>
+            </ul>     
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><a href="#0">About</a></li>
+                <li><a href="#0">Get Involved</a></li>
+                <li><a href="#0">Donations</a></li>
+                <li><a href="#0">Resources</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ZURB Foundation -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+        integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
     <script src="./assets/javascript/script.js"></script>
 </body>
+
 </html>
