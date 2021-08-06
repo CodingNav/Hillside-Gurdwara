@@ -36,13 +36,20 @@
     padding: 15px 20px;
     letter-spacing: 1px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: var(--secondary-font);
     color: var(--white-color)
 }
 
+.top-bar li a:hover {
+    color: var(--orange-color);
+    transition: .4s;
+    transform: scale(1.2);
+}
+
 #donation-btn {
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
     border-radius: 100px;
     color: var(--white-color);
     background: var(--orange-color);
@@ -51,14 +58,23 @@
 /* About Section */
 
 .about-section {
-    height: 100vh;
+    height: 70vh;
     color: var(--white-color);
     background-color: var(--blue-color);
 }
 
 .about-title h1 {
+    padding-top: 30px;
     text-align: center;
+    font-size: 70px;
     font-weight: 600;
     font-family: var(--heading-font);
     color: var(--orange-color);
+}
+
+.about-text p {
+    padding: 20px 140px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: var(--secondary-font);
 }
