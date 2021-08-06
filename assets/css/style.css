@@ -143,13 +143,16 @@
     color: var(--white-color);
 }
 
-.involved-section img {
+.involved-section .img {
+    background-image: url("https://www.sikhcoalition.org/wp-content/uploads/2019/12/KhalsaFoodPantry-seva-520x344-c-default.png");
     position: absolute;
     height: 100%;
     width: 50%;
     right: 0;
     top: 0;
-    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
 }
 
 .clipped {
@@ -165,4 +168,15 @@
     -moz-transform: skew(-15deg);
     -webkit-transform: skew(-15deg); 
     transform: skew(-15deg);
+}
+
+@media (max-width: 767px) {
+/* Involved Section */
+.involved-section {
+    background: var(--orange-color);
+}
+.involved-section .img {
+    width: 70%;
+    background-position-x: center;
+}
 }
