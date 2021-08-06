@@ -55,24 +55,10 @@
 }
 
 /* Main Image CSS */
-.img-section .cell {
-    position: relative;
-    overflow: hidden;
-}
-
 .img-section img {
     width: 100%;
     height: calc(100vh - 70px);
     object-fit: cover;
-}
-
-.shadow {
-    position: absolute;
-    height: 100%;
-    width: calc(100% + 90px);
-    top: 0;
-    left: -45px;
-    box-shadow: inset 0px -24px 21px var(--orange-color);
 }
 
 /* Donation Section */
