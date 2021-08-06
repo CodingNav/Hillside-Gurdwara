@@ -128,3 +128,39 @@
     letter-spacing: 1px;
     font-family: var(--secondary-font);
 }
+
+/* Get Involved CSS */
+
+.involved-section .cell {
+    position: relative;
+}
+
+.involved-section .content {
+    position: relative;
+    z-index: 10;
+    color: var(--white-color);
+}
+
+.involved-section img {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.clipped {
+    position: absolute;
+    height: 100%;
+    width: 66%;
+    top: 0;
+    left: -10%;
+    padding-right: 5%;
+    z-index: 5;
+    background: var(--orange-color);
+    -o-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -webkit-transform: skew(-15deg); 
+    transform: skew(-15deg);
+}
