@@ -188,6 +188,12 @@ body {
     margin: 5px 5px 5px 10px;
 }
 
+/* Resources Section CSS */
+.resources-section {
+    height: 100vh;
+    background-color: var(--white-color);
+}
+
 @media (max-width: 767px) {
 /* Involved Section */
 .involved-section {
