@@ -7,6 +7,11 @@
     --secondary-font: 'Roboto', sans-serif;
 }
 
+body {
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+}
+
 /* Top Bar */
 .top-bar {
     padding: 15px 0px;
@@ -140,6 +145,7 @@
     width: 50%;
     padding: 55px 25px;
     z-index: 3;
+    font-size: 18px;
     color: var(--white-color);
 }
 
@@ -168,6 +174,18 @@
     -moz-transform: skew(-15deg);
     -webkit-transform: skew(-15deg); 
     transform: skew(-15deg);
+}
+
+.involved-section h1 {
+    font-size: 80px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: var(--blue-color);
+}
+
+.involved-section img {
+    width: 3%;
+    margin: 5px 5px 5px 10px;
 }
 
 @media (max-width: 767px) {
