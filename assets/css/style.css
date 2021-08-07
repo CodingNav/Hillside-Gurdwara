@@ -194,6 +194,16 @@ body {
     background-color: var(--white-color);
 }
 
+/* Contact Section CSS */
+.contact-section h1 {
+    font-size: 150px;
+    color: var(--orange-color);
+}
+
+.contact-section label {
+    color: var(--blue-color);
+}
+
 @media (max-width: 767px) {
 /* Involved Section */
 .involved-section {
