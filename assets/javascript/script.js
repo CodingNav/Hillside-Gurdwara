@@ -3,7 +3,10 @@ $(document).foundation();
 $.ajax({
     method: "POST",
     url: "https://www.sikhcoalition.org/wp-json/facetwp/v1/refresh",
-    data: {
+    headers: {
+        "Content-Type": "application/json"
+    },
+    data: JSON.stringify({
         "action": "facetwp_refresh",
         "data": {
             "facets": {
@@ -41,7 +44,7 @@ $.ajax({
             "first_load": 0,
             "paged": 1
         }
-    }
+    })
 }).then(function(response) {
     console.log(response);
 })
