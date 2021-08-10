@@ -196,8 +196,14 @@ body {
 
 /* Contact Section CSS */
 .contact-section h1 {
+    text-align: center;
     font-size: 150px;
+    font-family: var(--heading-font);
     color: var(--orange-color);
+}
+
+.contact-section form {
+    padding: 0px 50px 50px 50px;
 }
 
 .contact-section label {
