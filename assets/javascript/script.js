@@ -4,7 +4,8 @@ $.ajax({
     method: "POST",
     url: "https://www.sikhcoalition.org/wp-json/facetwp/v1/refresh",
     headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Access-Control-Request-Headers": "x-requested-with"
     },
     data: JSON.stringify({
         "action": "facetwp_refresh",
