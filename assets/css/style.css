@@ -189,9 +189,9 @@ body {
 }
 
 /* Resources Section CSS */
-.resources-section {
+.resource-section {
     height: 100vh;
-    background-color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 /* Contact Section CSS */
