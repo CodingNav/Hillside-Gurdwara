@@ -75,15 +75,20 @@ body {
 #donation-section {
     padding: 35px;
     text-align: center;
-    color: wheat;
+    color: var(--white-color);
     background-color: #EF5E31;
 }
 
 #donation-section h1 {
+    padding: 20px;
     font-size: 70px;
     font-weight: 600;
     font-family: var(--heading-font);
     color: var(--white-color);
+}
+
+#donation-section i {
+    color: wheat;
 }
 
 #donation-section button {
