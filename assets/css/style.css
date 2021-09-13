@@ -25,11 +25,15 @@ body {
     background-color: var(--blue-color);
 }
 
-.menu .menu-text {
+.menu .menu-text a {
     font-size: 35px;
     font-weight: 600;
     font-family: var(--heading-font);
     color: var(--orange-color);
+}
+
+.menu .menu-text a:hover {
+    transform: none;
 }
 
 .top-bar li p {
