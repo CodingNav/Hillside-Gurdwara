@@ -60,32 +60,32 @@ body {
 }
 
 /* Main Image CSS */
-.img-section img {
+#img-section img {
     width: 100%;
     height: calc(100vh - 70px);
     object-fit: cover;
 }
 
 /* Donation Section */
-.donation-section {
+#donation-section {
     padding: 35px;
     text-align: center;
     color: wheat;
     background-color: #EF5E31;
 }
 
-.donation-section h1 {
+#donation-section h1 {
     font-size: 70px;
     font-weight: 600;
     font-family: var(--heading-font);
     color: var(--white-color);
 }
 
-.donation-section button {
+#donation-section button {
     margin: 45px;
 }
 
-.donation-section button a {
+#donation-section button a {
     padding: 15px 20px;
     letter-spacing: 1px;
     font-size: 18px;
@@ -94,13 +94,13 @@ body {
     background: var(--blue-color);
 }
 
-.donation-section button a:hover {
+#donation-section button a:hover {
     background: #0c69ab;
 }
 
 /* About Section */
 
-.about-section {
+#about-section {
     padding: 50px;
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -136,11 +136,11 @@ body {
 
 /* Get Involved CSS */
 
-.involved-section .cell {
+#involved-section .cell {
     position: relative;
 }
 
-.involved-section .content {
+#involved-section .content {
     position: relative;
     width: 50%;
     padding: 55px 25px;
@@ -149,7 +149,7 @@ body {
     color: var(--white-color);
 }
 
-.involved-section .img {
+#involved-section .img {
     background-image: url("https://www.sikhcoalition.org/wp-content/uploads/2019/12/KhalsaFoodPantry-seva-520x344-c-default.png");
     position: absolute;
     height: 100%;
@@ -176,37 +176,37 @@ body {
     transform: skew(-15deg);
 }
 
-.involved-section h1 {
+#involved-section h1 {
     font-size: 80px;
     font-weight: 600;
     font-family: var(--heading-font);
     color: var(--blue-color);
 }
 
-.involved-section img {
+#involved-section img {
     width: 3%;
     margin: 5px 5px 5px 10px;
 }
 
 /* Resources Section CSS */
-.resource-section {
+#resources-section {
     height: 100vh;
     background-color: var(--blue-color);
 }
 
 /* Contact Section CSS */
-.contact-section h1 {
+#contact-section h1 {
     text-align: center;
     font-size: 150px;
     font-family: var(--heading-font);
     color: var(--orange-color);
 }
 
-.contact-section form {
+#contact-section form {
     padding: 0px 50px 50px 50px;
 }
 
-.contact-section label {
+#contact-section label {
     color: var(--blue-color);
 }
 
@@ -245,10 +245,10 @@ footer i {
 
 @media (max-width: 767px) {
 /* Involved Section */
-.involved-section {
+#involved-section {
     background: var(--orange-color);
 }
-.involved-section .img {
+#involved-section .img {
     width: 70%;
     background-position-x: center;
 }
