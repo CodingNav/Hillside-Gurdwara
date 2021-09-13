@@ -202,6 +202,10 @@ body {
 }
 
 /* Contact Section CSS */
+#contact-section {
+    height: calc(100vh - 80px);
+}
+
 #contact-section h1 {
     text-align: center;
     font-size: 150px;
@@ -215,6 +219,10 @@ body {
 
 #contact-section label {
     color: var(--blue-color);
+}
+
+#contact-section button {
+    width: 100px;
 }
 
 /* Footer */
