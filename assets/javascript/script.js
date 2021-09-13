@@ -16,3 +16,12 @@ const settings = {
 
   });
 };
+
+
+// Scroller.scrollVerticalToElementById("about-section", -50);
+
+$(".top-bar a, footer a").on("click", function(e) {
+  e.preventDefault();
+  const height = $(".top-bar").height();
+  Scroller.scrollVerticalToElementById(this.href.split("#")[1], height);
+});
