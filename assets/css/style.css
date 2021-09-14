@@ -15,6 +15,7 @@ body {
 }
 
 /* Top Bar */
+
 .top-bar {
     padding: 15px 0px;
     border-style: solid;
@@ -66,6 +67,7 @@ body {
 }
 
 /* Main Image CSS */
+
 #img-section img {
     width: 100%;
     height: calc(100vh - 70px);
@@ -73,6 +75,7 @@ body {
 }
 
 /* Donation Section */
+
 #donation-section {
     padding: 35px;
     text-align: center;
@@ -112,7 +115,7 @@ body {
 /* About Section */
 
 #about-section {
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
     padding: 50px;
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -130,7 +133,6 @@ body {
     font-weight: 600;
     font-family: var(--heading-font);
     color: var(--orange-color);
-
 }
 
 .about-text {
@@ -163,7 +165,7 @@ body {
 }
 
 #involved-section .img {
-    background-image: url("https://www.sikhcoalition.org/wp-content/uploads/2019/12/KhalsaFoodPantry-seva-520x344-c-default.png");
+    background-image: url("https://static01.nyt.com/images/2020/06/10/dining/08virus-sikhs7/08virus-sikhs7-superJumbo-v2.jpg?quality=90&auto=webp");
     position: absolute;
     height: 100%;
     width: 50%;
@@ -177,7 +179,7 @@ body {
 .clipped {
     position: absolute;
     height: 100%;
-    width: 66%;
+    width: 70%;
     top: 0;
     left: -10%;
     padding-right: 5%;
@@ -185,7 +187,7 @@ body {
     background: #fde8e1;
     -o-transform: skew(-15deg);
     -moz-transform: skew(-15deg);
-    -webkit-transform: skew(-15deg); 
+    -webkit-transform: skew(-15deg);
     transform: skew(-15deg);
 }
 
@@ -222,6 +224,7 @@ tbody tr:nth-child(even) {
 }
 
 /* Contact Section CSS */
+
 #contact-section {
     background-color: var(--orange-color);
 }
@@ -266,6 +269,7 @@ tbody tr:nth-child(even) {
 }
 
 /* Footer */
+
 footer {
     padding: 50px;
     color: var(--white-color);
@@ -298,13 +302,62 @@ footer i {
 }
 
 
-@media (max-width: 767px) {
-/* Involved Section */
-#involved-section {
-    background: var(--orange-color);
+@media (max-width: 1200px) {
+    /* Involved Section */
+    #involved-section .content {
+        width: 60%;
+    }
+    .clipped {
+        width: 80%;
+    }
 }
-#involved-section .img {
-    width: 70%;
-    background-position-x: center;
+
+@media (max-width: 1020px) {
+    /* About Section */
+    .about-title h1 {
+        margin: 0;
+        padding: 0;
+        transform: none;
+        writing-mode: horizontal-tb;
+        font-size: 100px;
+    }
 }
+
+@media (max-width: 800px) {
+    /* About Section */
+    .about-title h1 {
+        margin: 0;
+        padding: 0;
+        transform: none;
+        writing-mode: horizontal-tb;
+        font-size: 100px;
+    }
+    .about-text p {
+        top: 0;
+        padding: 0;
+        position: initial;
+        transform: none;
+    }
+    /* Involved Section */
+    #involved-section .img {
+        display: none;
+    }
+    #involved-section .content {
+        width: 100%;
+    }
+    .clipped {
+        display: none;
+    }
+    /* Contact Section */
+    #contact-section h1 {
+        font-size: 100px;
+    }
+    /* Footer */
+    footer ul {
+        margin: 0 0 20px 0;
+    }
+    footer .large-2 {
+        text-align: center;
+        margin: 25px 0 0 0;
+    }
 }
