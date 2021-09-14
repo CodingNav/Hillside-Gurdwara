@@ -11,6 +11,7 @@ body {
     font-family: var(--secondary-font);
     letter-spacing: 1px;
     scroll-behavior: smooth;
+    background-color: #fde8e1;
 }
 
 /* Top Bar */
@@ -175,7 +176,7 @@ body {
 
 .clipped {
     position: absolute;
-    height: 100.1%;
+    height: 100%;
     width: 66%;
     top: 0;
     left: -10%;
