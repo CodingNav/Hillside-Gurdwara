@@ -157,7 +157,7 @@ body {
     width: 50%;
     padding: 55px 25px;
     z-index: 3;
-    font-size: 18px;
+    font-size: 14px;
     color: var(--blue-color);
 }
 
@@ -195,16 +195,30 @@ body {
     color: var(--orange-color);
 }
 
+#involved-section h3 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: var(--blue-color);
+}
+
 #involved-section img {
     width: 3%;
     margin: 5px 5px 5px 10px;
 }
 
-/* Resources Section CSS */
-/* #resources-section {
-    height: 100vh;
-    background-color: var(--blue-color);
-} */
+td, th {
+    border-collapse: unset;
+    border: 2px solid #fde8e1;
+}
+
+tbody tr {
+    background-color: #fcf8f6;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fcf8f6;
+}
 
 /* Contact Section CSS */
 #contact-section {
