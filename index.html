@@ -152,21 +152,21 @@
                 <form>
                     <div class="grid-x grid-padding-x align-center">
                         <div class="medium-6 cell">
-                            <label>Name
-                                <input id="name-input" type="text" placeholder="John Doe">
+                            <label>Name*
+                                <input id="name-input" type="text" placeholder="John Doe" required>
                             </label>
-                            <label>Email
-                                <input id="email-input" type="text" placeholder="name@example.com">
+                            <label>Email*
+                                <input id="email-input" type="email" placeholder="name@example.com" required>
                             </label>
-                            <label>Phone Number
-                                <input id="number-input" type="text" placeholder="xxx-xxx-xxxx">
+                            <label>Phone Number*
+                                <input id="number-input" type="text" placeholder="xxx-xxx-xxxx" required>
                             </label>
-                            <label>Subject
-                                <input id="subject-input" type="text" placeholder="Enter Subject">
+                            <label>Subject*
+                                <input id="subject-input" type="text" placeholder="Enter Subject" required>
                             </label>
                             <label>
-                                Message
-                                <textarea id="message-input" placeholder="" rows="5"></textarea>
+                                Message*
+                                <textarea id="message-input" placeholder="" rows="5" required></textarea>
                             </label>
                             <button id="submit-btn" type="submit" class="button">Send</button>
                         </div>

@@ -21,7 +21,7 @@ function getResources(resourceType) {
 // Scroller.scrollVerticalToElementById("about-section", -50);
 
 $(".top-bar a, footer a").on("click", function (e) {
-  if(this.href.includes(window.location.origin)) {
+  if (this.href.includes(window.location.origin)) {
     e.preventDefault();
     const height = $(".top-bar").height();
     Scroller.scrollVerticalToElementById(this.href.split("#")[1], height);
