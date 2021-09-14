@@ -92,11 +92,12 @@ body {
 }
 
 #donation-section i {
+    word-break: break-all;
     color: wheat;
 }
 
 #donation-section button {
-    margin: 45px;
+    margin: 45px 0;
 }
 
 #donation-section button a {
@@ -301,6 +302,9 @@ footer i {
     padding-right: 10px;
 }
 
+#footer-email {
+    word-break: break-all;
+}
 
 @media (max-width: 1200px) {
     /* Involved Section */
@@ -313,6 +317,37 @@ footer i {
 }
 
 @media (max-width: 1020px) {
+    /* Mobile Menu */
+    .top-bar {
+        display: block;
+        border-style: none;
+        border-width: 0;
+        border-color: none;
+    }
+    .title-bar {
+        padding: 25px 15px;
+        justify-content: space-between;
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: var(--orange-color);
+        background: var(--blue-color);
+    }
+    .menu-icon {
+        position: absolute;
+        right: 10px;
+    }
+    /* Top Bar */
+    .top-bar .menu-text {
+        display: none;
+    }
+    .top-bar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    #donation-btn {
+        margin: 30px 0;
+        display: inline-block;
+    }
     /* About Section */
     .about-title h1 {
         margin: 0;
