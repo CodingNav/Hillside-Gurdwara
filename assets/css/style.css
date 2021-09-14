@@ -181,7 +181,7 @@ body {
     left: -10%;
     padding-right: 5%;
     z-index: 2;
-    background: var(--white-color);
+    background: #fde8e1;
     -o-transform: skew(-15deg);
     -moz-transform: skew(-15deg);
     -webkit-transform: skew(-15deg); 
@@ -208,7 +208,6 @@ body {
 
 /* Contact Section CSS */
 #contact-section {
-    height: calc(100vh - 80px);
     background-color: var(--orange-color);
 }
 
@@ -216,7 +215,7 @@ body {
     text-align: center;
     font-size: 150px;
     font-family: var(--heading-font);
-    color: var(--blue-color);
+    color: var(--white-color);
 }
 
 #contact-section form {
@@ -224,7 +223,8 @@ body {
 }
 
 #contact-section label {
-    color: var(--blue-color);
+    font-size: 18px;
+    color: var(--white-color);
 }
 
 #contact-section input, textarea {
@@ -233,8 +233,21 @@ body {
     background-color: #f18b6b;
 }
 
+#contact-section input::placeholder {
+    color: #f7ccc0;
+}
+
 #contact-section button {
-    width: 100px;
+    width: 120px;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    background: var(--blue-color);
+}
+
+#contact-section button:hover {
+    background: #0c69ab;
 }
 
 /* Footer */
